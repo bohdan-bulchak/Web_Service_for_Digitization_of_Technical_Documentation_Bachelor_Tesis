@@ -1,0 +1,408 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    width: 100%;
+    background: #D3CCC2;
+}
+#file {
+    position: absolute;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+#boddy {
+    margin: 0;
+    position: relative;
+}
+#out_div {
+    position: absolute;
+    margin-left:1vw;
+    margin-right:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 82vw;
+}
+#output {
+    max-width: 46vw;
+    max-height: 40vw;
+}
+
+#button_div {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 30%;
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 -97px;
+    font-size: 25px;
+}
+
+#button_div2 {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 -97px;
+    font-size: 25px;
+}
+
+#button_div3 {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 70%;
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 -97px;
+    font-size: 25px;
+}
+
+#button_div4 {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 -97px;
+    font-size: 25px;
+}
+
+.button {
+    width: 100%;
+    border: #28b487 5px solid;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+
+#map {
+    width: 100%;
+}
+
+map {
+    display: block;
+}
+
+area {
+    opacity: 20;
+    display: block;
+}
+
+canvas
+{
+    pointer-events: none;
+    position: absolute;
+}
+
+#myCanvas {
+    opacity: 50;
+    color: blue;
+}
+
+#logo_img {
+    position: absolute;
+    top:-0.35vw;
+    right: 0.98vw;
+    width:4vw;
+    z-index:1;
+}
+
+#logo1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 12vw;
+    height: 5vw;
+    left: 0.5vw;
+    top: -0.5vw;
+    background: #EFEAD8;
+    border-radius: 10px;
+}
+
+#logo2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 80.3vw;
+    height: 5vw;
+    left: 12.8vw;
+    top: -0.5vw;
+    background: #EFEAD8;
+    border-width: 4px 4px 1px 4px;
+    border-radius: 10px;
+}
+
+#logo3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    right: 7px;
+    top: -8px;
+    background: #EFEAD8;
+    border-width: 4px 4px 1px 4px;
+    border-radius: 10px;
+}
+
+#logo1_title {
+    width: 8.5vw;
+    margin-left: 1.4vw;
+    margin-top: 0.15vw;
+}
+
+#logo2_title {
+    position: absolute;
+    width: 60vw;
+    left: 15vw;
+    top: 1.3vw;
+    font-family: 'BIZ UDPGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5F7161;
+}
+
+#step_1 {
+    position: absolute;
+    top:-0.5vw;
+    width: 100vw;
+    height: 30vw;
+}
+
+#step1_title {
+    width: 5vw;
+    margin-top:8vw ;
+    margin-left: 47vw;
+}
+
+#step1_title2 {
+    position: absolute;
+    left: 35vw;
+    top: 10.5vw;
+    font-family: 'BIZ UDPGothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #5F7161;
+}
+
+#button_1_div {
+    box-sizing: border-box;
+    position: absolute;
+    width: 38vw;
+    height: 16vw;
+    left: 31vw;
+    top: 19vw;
+    background: #EFEAD8;
+    border-width: 4px 4px 1px 4px;
+    border-style: solid;
+    border-color: #D0C9C0;
+    border-radius: 10px;
+}
+
+#button1 {
+    display: block;
+}
+
+#button_1 {
+    width: 15vw;
+    height: 2vw;
+    background-color: #5F7161;
+    border:1px solid #566963;
+    color: #fff;
+    padding:2vw 4vw;
+    border-radius: 0.6vw;
+    margin-left: 7.2vw;
+    margin-top: 5vw;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.96vw;
+    font-family: 'BIZ UDPGothic';
+ }
+
+#button_1:active {
+	background-color: #6D8B74;
+}
+
+#button_1_div2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 20vw;
+    height: 5vw;
+    left: 31vw;
+    top: 35vw;
+    background: #EFEAD8;
+    border-width: 4px 4px 1px 4px;
+    border-style: solid;
+    border-color: #D0C9C0;
+    border-radius: 10px;
+
+}
+
+#button_2_div {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    left: 51vw;
+    top: 35vw;
+}
+
+#button2 {
+    display: block;
+}
+
+#button_2 {
+    width: 10.7vw;
+    height: 1.6vw;
+    background-color: #5F7161;
+    border:1px solid #566963;
+    color: #fff;
+    padding:1.4vw 3.2vw;
+    border-radius: 0.6vw;
+    margin-left: 0.1vw;
+    margin-top: 0.3vw;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.6vw;
+    font-family: 'BIZ UDPGothic';
+ }
+
+#img_name_div {
+    position: absolute;
+    width: 17.8vw;
+    height: 3.6vw;
+    top: 35.5vw;
+    left: 35.3vw;
+    font-size: 1.4vw;
+    max-width: 13.2vw;
+}
+
+#img_name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    font-size: 1.4vw;
+    font-family: 'BIZ UDPGothic';
+}
+
+#step_2 {
+    display: none;
+    position: absolute;
+    top:46vw;
+    width: 100vw;
+    height: 30vw;
+}
+
+#step2_title {
+    width: 5vw;
+    margin-top:6vw ;
+    margin-left: 47vw;
+}
+
+#step2_title2 {
+    position: absolute;
+    left: 32vw;
+    top: 10vw;
+    font-family: 'BIZ UDPGothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #5F7161;
+    }
+
+#d {
+    position: absolute;
+    top: 45vw;
+}
+
+#button_3_div {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    left: 41vw;
+    top: 68vw;
+}
+
+#button3 {
+    display: block;
+}
+
+#button_3 {
+    width: 12.7vw;
+    height: 2.4vw;
+    background-color: #5F7161;
+    border:1px solid #566963;
+    color: #fff;
+    padding:1.4vw 3.8vw;
+    border-radius: 0.6vw;
+    margin-left: -0.9vw;
+    margin-top: 1.3vw;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.2vw;
+    font-family: 'BIZ UDPGothic';
+ }
+
+#button_4_div {
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    left: 40.5vw;
+    top: 73vw;
+}
+
+#button4 {
+    display: block;
+}
+
+#button_4 {
+    width: 13.7vw;
+    height: 1.6vw;
+    background-color: #5F7161;
+    border:1px solid #566963;
+    color: #fff;
+    padding:1.4vw 2.8vw;
+    border-radius: 0.6vw;
+    margin-left: 0.1vw;
+    margin-top: 0.3vw;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8vw;
+    font-family: 'BIZ UDPGothic';
+
+ }
+
+#p_div {
+    display: none;
+    position: absolute;
+    left: 30vw;
+    top: 76vw;
+
+    font-family: 'BIZ UDPGothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 50px;
+    opacity: 0.5;
+    color: #5F7161;
+}

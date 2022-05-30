@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>JavaScript Fundamentals – Part 1</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+  <style>
+
+
+</style>
+</head>
+
+<body onload='myInit()'>
+<div id="boddy">
+  <canvas id='myCanvas'></canvas>
+
+  <element onload="onloadFlask" ></element>
+
+  <img id="logo_img" src="{{ url_for('static', filename="img.png") }}" />
+
+  <div id="logo1">
+    <img id="logo1_title" src="{{ url_for('static', filename="img_1.png") }}" />
+  </div>
+  <div id="logo2">
+    <div id="logo2_title">Digitize your plan in a few clicks</div>
+  </div>
+  <div id="logo3">
+  </div>
+
+  <div id="step_1">
+    <img id="step1_title" src="{{ url_for('static', filename="img_2.png") }}" />
+    <p id="step1_title2">Choose an image</p>
+  </div>
+
+  <div id="button_1_div">
+    <div id="button1"><label id="button_1"  for="file" style="cursor: pointer;">Upload Image</label></div>
+  </div>
+  <p><input type="file" accept="image/*" name="image" id="file" onChange="loadFile(event)" style=" display: none;"></p>
+
+
+  <div id="button_1_div2">
+  </div>
+
+  <div id="button_2_div">
+    <div id="button2">
+      <label id="button_2" style="cursor: pointer;" onclick="postImage()">Confirm</label>
+  </div>
+  </div>
+
+  <div id="step_2">
+    <img id="step2_title" src="{{ url_for('static', filename="img_3.png") }}" />
+    <p id="step2_title2">Convert your image</p>
+    <div id="d"></div>
+  </div>
+
+
+
+  <div id="button_3_div">
+    <div id="button3">
+      <label id="button_3" style="cursor: pointer;" onclick="getContours()">Convert</label>
+    </div>
+  </div>
+
+
+  <div id="out_div">
+    <img id="output" class="map" usemap="#mapp" />
+  </div>
+
+  <div id="p_div">
+    <p id="p_new">Click on some area to add new image</p>
+  </div>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename="js/script.js") }}"></script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="{{ url_for('static', filename="js/jquery.maphilight.js") }}"></script>
+
+</div>
+</body>
+
+
+</html>
